@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ml"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/details"
+        android:textColor="@android:color/black"
+        android:textSize="66sp"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/mainimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/detail"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/a1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainimg"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:textColor="@android:color/black"
+
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MyGuide</string>
+    <string name="title">Giza</string>
+    <string name="details">Details</string>
+    <string name="Address">Address  </string>
+
+    <string-array name="places">
+        <!--touristattractions-->
+        <item>The Pyramids</item>
+        <item>Papyrus Museum</item>
+        <item>Pharaonic Village</item>
+        <item>solar boat museum</item>
+        <!--Hotels-->
+        <item>Safir Hotel Cairo</item>
+        <item>Sheraton Cairo Hotel and Casino</item>
+        <item>Le Meridien Pyramids Hotel and Spa</item>
+        <item>Pyramids Valley</item>
+
+        <!--Shopping malls-->
+        <item>Dandy Mega Mall</item>
+        <item>The First Mall</item>
+        <item>Genena Mall</item>
+        <item>Cityscape Mall</item>
+
+        <!--Resturants-->
+        <item>Restaurant El Dar Darak‬</item>
+        <item>Os Pasta‬</item>
+        <item>Koshary Abou Tarek‬</item>
+        <item>L Uliveto Italian Restaurant‬</item>
+
+    </string-array>
+    <string-array name="addresses">
+        <!--Attractions-->
+
+        <item>Address: El-Haram, Nazlet El-Samman, El-Haram, Giza</item>
+        <item>98 Haram St., Kafr Nassar, Giza</item>
+        <item>3 The Great Sea, Saqiet Makki, Giza</item>
+        <item>Nazlet El Samman, El Haram, Giza</item>
+        <!--Hotels-->
+        <item>In proximity to the Egyptian Museum offers 4 restaurants</item>
+        <item>Close to the Egyptian Opera House offers 3 restaurants</item>
+        <item>Near Giza Pyramids Complex offers 7 restaurants</item>
+        <item>Near the Giza Pyramids Complex, this restaurant offers a restaurant</item>
+
+        <!--Shopping malls-->
+        <item>Cairo-Alex Desert Road,, Giza, Egypt</item>
+        <item>35 Giza Street, Giza 12612, Egypt</item>
+        <item>9 El-Batrawy st, Cairo 11511, Egypt</item>
+        <item>Elmehwar Elmarkazy, Giza, Egypt</item>
+
+        <!--Resturants-->
+        <item>‪Nazlet El Saman‬ Restaurant El Dar Dara</item>
+        <item>159 26th of July Street‬ Zamalek</item>
+        <item>‪Choppin ln‬ Champollion</item>
+        <item>‪Nile City Towers 2005 B Corniche El Nil‬</item>
+
+
+    </string-array>
+
+    <integer-array name="images">
+        <!--Attractions-->
+
+        <item>@drawable/a1</item>
+        <item>@drawable/a2</item>
+        <item>@drawable/a3</item>
+        <item>@drawable/a4</item>
+        <!--Hotels-->
+        <item>@drawable/h1</item>
+        <item>@drawable/h2</item>
+        <item>@drawable/h3</item>
+        <item>@drawable/h4</item>
+
+        <!--Shopping malls-->
+        <item>@drawable/m1</item>
+        <item>@drawable/m2</item>
+        <item>@drawable/m3</item>
+        <item>@drawable/m4</item>
+
+        <!--Resturants-->
+        <item>@drawable/r1</item>
+        <item>@drawable/r2</item>
+        <item>@drawable/r3</item>
+        <item>@drawable/r4</item>
+
+
+    </integer-array>
+
+</resources>
